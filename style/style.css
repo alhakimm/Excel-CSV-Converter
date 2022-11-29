@@ -1,0 +1,123 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #203361;
+}
+
+.logo {
+  width: 25rem;
+  margin: 0.7rem auto 1rem 1.5rem;
+}
+
+.hero-section {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.intro-paragraph {
+  color: white;
+  padding-bottom: 4rem;
+}
+.intro-paragraph h1 {
+  font-family: poppins; /* * ! download font*/
+  padding-bottom: 0.5rem;
+  font-size: 3.5rem;
+  color: rgb(252, 163, 17);
+}
+.intro-paragraph p {
+  font-size: 2rem;
+  line-height: 2rem;
+}
+
+.choose-file-header {
+  display: flex;
+  align-items: center;
+}
+.choose-file-header h3 {
+  color: white;
+  padding-left: 0.7rem;
+  font-size: 2.3rem;
+}
+
+.insert-file-container {
+  width: 100%;
+  color: white;
+  border: dashed 3px rgb(252, 163, 17);
+  border-radius: 2rem;
+  height: 13rem;
+  margin-bottom: 4rem;
+}
+.insert-file-container .icon-insert {
+  padding: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+.insert-file-container h4 {
+  padding: 0.1rem;
+  font-size: 1.8rem; /* need to change this*/
+  text-align: center;
+}
+.insert-file-container h4 .or {
+  color: #b8b9bb;
+  font-weight: 100;
+}
+.insert-file-container h4 .choose-here {
+  color: rgb(252, 163, 17);
+}
+
+.link-header {
+  color: white;
+  font-size: 2.3rem;
+  margin-bottom: 1rem;
+}
+
+.retrieve-link-container {
+  display: grid;
+  width: 100%;
+  height: 10rem;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  grid-template-areas: "link link" "copy download";
+  grid-gap: 0.5rem;
+}
+
+.retrieve-link-appear {
+  grid-area: link;
+  background-color: white;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+.copy {
+  grid-area: copy;
+  background-color: white;
+  border-bottom-left-radius: 2rem;
+}
+.copy .copy-icon {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.download {
+  grid-area: download;
+  background-color: rgb(252, 163, 17);
+  border-bottom-right-radius: 2rem;
+}
+.download .download-icon {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=style.css.map */
